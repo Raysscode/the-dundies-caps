@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Cinzel:wght@400..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #D3D3D3;
+    color: #c2a300;
+    font-family: "lora", sans-serif;
+    font-weight: 400;
+    background: linear-gradient(135deg, #000000, #333333);  
+    color: #FFFFFF;
+    
+}
+h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    color: #D4AF37; /* Dourado */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    text-shadow:  1px 1px 2px #333333,   /* Sombra escura */
+    2px 2px 5px #000000,   /* Efeito de profundidade */
+    0px 0px 15px rgba(212, 175, 55, 0.6); /* Brilho dourado */;
+    font-family: "cinzel", sans-serif;
+    background-color: #DC143C;
+    -webkit-text-stroke: #000000;
+
+}
+
+.TheDundies{
+    text-align: center;
+    margin: 20px;
+    border: 2px solid #000000; /* Borda preta de 2px */
+    padding: 10px; /* Adiciona espaço entre o texto e a borda */
+    margin-bottom: 15px; /* Adiciona espaço abaixo do parágrafo */
+    border-radius: 5px;
+}
+
+img{
+    width: 400px;
+    padding: 20px;
+    border-radius: 3rem;
+}
+
+
+h2{
+    color: #DC143C;
+}
+
+p{
+    color: #D4AF37;
+    font-size: 1.5rem; /* Ajuste o tamanho da fonte conforme necessário */
+    
+ 
+color: #D4AF37; /* Cor do texto */
+-webkit-text-stroke: 
+0.4px #000000; /* Contorno de 2px em preto */
+    text-stroke: 1px #000000; /* Contorno de 2px em preto (apenas para navegadores que suportam o padrão) */
+    font-family: "lora" sans-serif; /* Defina a fonte desejada */
+    
+line-height: 1.2; /* Espaçamento entre linhas */
+   
+}
+
+
+footer {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #222;
+    color: #D4AF37;
+    text-align: center;
+    border-top: 1px solid #D4AF37;
+}
+
+.container {
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.TheDundies, .Dataehorario, .votação, .cerimônia {
+    background-color: #333;
+    border: 1px solid #D4AF37;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
